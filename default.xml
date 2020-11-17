@@ -3,12 +3,12 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="oe4t"  fetch="git://github.com/OE4T"/>
     <remote name="oe"    fetch="git://git.openembedded.org"/>
-    <remote name="js"  fetch="git://github.com/jschaare"/>
+    <remote name="js"    fetch="git://github.com/jschaare"/>
 
     <default sync-j="4"/>
 
     <project remote="js"      revision="dunfell"                  name="yocto-manifests"          path="sources/manifest"/>
-    <project remote="yocto"   revision="dunfell"                  name="poky"                     path="sources/core"/>
+    <project remote="yocto"   revision="dunfell"                  name="poky"                     path="sources/poky"/>
     <project remote="oe"      revision="dunfell"                  name="meta-openembedded"        path="sources/meta-openembedded"/>
     <project remote="yocto"   revision="dunfell"                  name="meta-virtualization"      path="sources/meta-virtualization"/>
     <project remote="oe4t"    revision="dunfell-l4t-r32.4.3"      name="meta-tegra"               path="sources/meta-tegra"/>
