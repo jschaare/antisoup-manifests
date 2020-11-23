@@ -7,7 +7,8 @@
 
     <default sync-j="4"/>
 
-    <project remote="js"      revision="dunfell"                  name="yocto-manifests"          path="sources/manifest"/>
+    <project remote="js"      revision="dunfell"                  name="antisoup-os"              path="."/>
+    <project remote="js"      revision="dunfell"                  name="antisoup-manifests"       path="sources/manifest"/>
     <project remote="yocto"   revision="dunfell"                  name="poky"                     path="sources/poky"/>
     <project remote="oe"      revision="dunfell"                  name="meta-openembedded"        path="sources/meta-openembedded"/>
     <project remote="yocto"   revision="dunfell"                  name="meta-virtualization"      path="sources/meta-virtualization"/>
